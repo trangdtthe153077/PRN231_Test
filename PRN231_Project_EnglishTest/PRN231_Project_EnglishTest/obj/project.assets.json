@@ -4499,11 +4499,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ADMIN\\Documents\\Kì 8 Summer 2023\\PRN231\\Project\\PRN231_Project_EnglishTest\\PRN231_Project_EnglishTest\\PRN231_Project_EnglishTest.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\Documents\\Kì 8 Summer 2023\\PRN231\\Project\\Project_PRN231\\PRN_231\\PRN231_Project_EnglishTest\\PRN231_Project_EnglishTest\\PRN231_Project_EnglishTest.csproj",
       "projectName": "PRN231_Project_EnglishTest",
-      "projectPath": "C:\\Users\\ADMIN\\Documents\\Kì 8 Summer 2023\\PRN231\\Project\\PRN231_Project_EnglishTest\\PRN231_Project_EnglishTest\\PRN231_Project_EnglishTest.csproj",
+      "projectPath": "C:\\Users\\ADMIN\\Documents\\Kì 8 Summer 2023\\PRN231\\Project\\Project_PRN231\\PRN_231\\PRN231_Project_EnglishTest\\PRN231_Project_EnglishTest\\PRN231_Project_EnglishTest.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Documents\\Kì 8 Summer 2023\\PRN231\\Project\\PRN231_Project_EnglishTest\\PRN231_Project_EnglishTest\\obj\\",
+      "outputPath": "C:\\Users\\ADMIN\\Documents\\Kì 8 Summer 2023\\PRN231\\Project\\Project_PRN231\\PRN_231\\PRN231_Project_EnglishTest\\PRN231_Project_EnglishTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",

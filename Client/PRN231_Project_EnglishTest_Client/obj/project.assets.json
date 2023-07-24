@@ -60,11 +60,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ADMIN\\Documents\\Kì 8 Summer 2023\\PRN231\\Project\\PRN231_Project_EnglishTest_Client\\PRN231_Project_EnglishTest_Client\\PRN231_Project_EnglishTest_Client.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\Documents\\Kì 8 Summer 2023\\PRN231\\Project\\Project_PRN231\\PRN_231\\Client\\PRN231_Project_EnglishTest_Client\\PRN231_Project_EnglishTest_Client.csproj",
       "projectName": "PRN231_Project_EnglishTest_Client",
-      "projectPath": "C:\\Users\\ADMIN\\Documents\\Kì 8 Summer 2023\\PRN231\\Project\\PRN231_Project_EnglishTest_Client\\PRN231_Project_EnglishTest_Client\\PRN231_Project_EnglishTest_Client.csproj",
+      "projectPath": "C:\\Users\\ADMIN\\Documents\\Kì 8 Summer 2023\\PRN231\\Project\\Project_PRN231\\PRN_231\\Client\\PRN231_Project_EnglishTest_Client\\PRN231_Project_EnglishTest_Client.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Documents\\Kì 8 Summer 2023\\PRN231\\Project\\PRN231_Project_EnglishTest_Client\\PRN231_Project_EnglishTest_Client\\obj\\",
+      "outputPath": "C:\\Users\\ADMIN\\Documents\\Kì 8 Summer 2023\\PRN231\\Project\\Project_PRN231\\PRN_231\\Client\\PRN231_Project_EnglishTest_Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
