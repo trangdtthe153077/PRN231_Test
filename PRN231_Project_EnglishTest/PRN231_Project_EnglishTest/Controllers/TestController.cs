@@ -49,13 +49,53 @@ namespace PRN231_Project_EnglishTest.Controllers
             }
         }
 
+        [HttpPut("{id}")]
+        public IActionResult UpdateTest(int id, TestDto testDto)
+        {
+            try
+            {
+                var temp =  context.Tests.Where(t => t.TestId == id).FirstOrDefault();
+                if (temp == null)
+                    return NotFound();
+
+                Test test = mapper.Map<Test>(testDto);
+                temp.TestName = test.TestName;
+                temp.TestDescription = test.TestDescription;
+                temp.Duration = test.Duration;
+                context.Tests.Update(temp);
+                context.SaveChanges();
+                return Ok();
+            }
+            catch
+            {
+                return BadRequest();
+            }
+        }
         [HttpPost]
         public IActionResult AddTest(TestDto testDto)
         {
             try
             {
                 Test test = mapper.Map<Test>(testDto);
-                context.Add(test);
+                context.Tests.Add(test);
+                context.SaveChanges();
+                return Ok();
+            }
+            catch
+            {
+                return BadRequest();
+            }
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult DeleteTest(int id)
+        {
+            try
+            {
+                var temp = context.Tests.Where(t => t.TestId == id).FirstOrDefault();
+                if (temp == null)
+                    return NotFound();
+                context.Tests.Remove(temp);
                 context.SaveChanges();
                 return Ok();
             }

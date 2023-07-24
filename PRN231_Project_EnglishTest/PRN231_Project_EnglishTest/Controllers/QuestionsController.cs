@@ -49,7 +49,7 @@ namespace PRN231_Project_EnglishTest.Controllers
             try
             {
                 var list = mapper.Map<List<Question>>(questions);
-                context.AddRange(list);
+                context.Questions.AddRange(list);
                 context.SaveChanges();
                 return Ok();
             }
@@ -59,5 +59,33 @@ namespace PRN231_Project_EnglishTest.Controllers
                 return BadRequest();
             }
         }
+
+        [HttpDelete("deleteQuestions/{id}")]
+        public IActionResult DeleteListQuestions(int id)
+        {
+            try
+            {
+               var list= context.Questions.Where(q => q.TestId == id).ToList();
+             foreach(var item in list)
+                {
+                    var a = context.Options.Where(o => o.QuestionId == item.QuestionId).ToList();
+                    context.Options.RemoveRange(a);
+                    var resultdetail = context.ResultDetails.Where(rd => rd.QuestionId == item.QuestionId).ToList();
+                    context.ResultDetails.RemoveRange(resultdetail);
+
+                }    
+                context.Questions.RemoveRange(list);
+                context.SaveChanges();
+                return Ok();
+            }
+            catch (Exception)
+            {
+
+                return BadRequest();
+            }
+        }
+
+
+
     }
 }
