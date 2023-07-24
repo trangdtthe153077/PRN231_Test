@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ab62664b-8d3f-441a-89d4-d599f538d9c2" name="Changes" comment="chinh form login signup">
+      <change afterPath="$PROJECT_DIR$/Client/.vs/PRN231_Project_EnglishTest_Client/FileContentIndex/1d2179cf-0a20-4b72-ab64-1bf52bc9d3f9.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/.vs/PRN231_Project_EnglishTest_Client/FileContentIndex/8b4679ed-b9a2-4e19-aa88-696fefc1020e.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRN231_Project_EnglishTest/.vs/PRN231_Project_EnglishTest/FileContentIndex/ec9bcd02-3a6a-465c-81f0-cc30e1210f62.vsidx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/.vs/PRN231_Project_EnglishTest_Client/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/Client/.vs/PRN231_Project_EnglishTest_Client/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PRN231_Project_EnglishTest/.vs/PRN231_Project_EnglishTest/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/PRN231_Project_EnglishTest/.vs/PRN231_Project_EnglishTest/v17/.suo" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2T1U86LwY3Odw2JtUKdsTbI6Cvz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab62664b-8d3f-441a-89d4-d599f538d9c2" name="Changes" comment="" />
+      <created>1690209917812</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690209917812</updated>
+    </task>
+    <task id="LOCAL-00001" summary="chinh form login signup">
+      <created>1690216629469</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690216629469</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="chinh form login signup" />
+    <option name="LAST_COMMIT_MESSAGE" value="chinh form login signup" />
+  </component>
+</project>
