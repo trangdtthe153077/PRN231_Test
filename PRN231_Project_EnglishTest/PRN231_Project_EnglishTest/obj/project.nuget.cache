@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KC9QrQfiW8xbb74HpRNuL2xeYow8RFjzAUDT8K75zeO9uB0bqiHKHS3Ra6ZQC+6U3FxNKNoaoqTu+UEycMNQRg==",
+  "dgSpecHash": "V/trLKQGpQXLc4b2OcuQkX63GIP8a3gSfuSxFSrVw0NPHTh02k81z1lZaHopIww/b66Q/U/YAeAUy2eN33bKPw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ADMIN\\Documents\\Kì 8 Summer 2023\\PRN231\\Project\\Project_PRN231\\PRN_231\\PRN231_Project_EnglishTest\\PRN231_Project_EnglishTest\\PRN231_Project_EnglishTest.csproj",
+  "projectFilePath": "E:\\.FPT\\.Ki8 Su23\\PRN231\\code\\project\\PRN231_Test\\PRN231_Project_EnglishTest\\PRN231_Project_EnglishTest\\PRN231_Project_EnglishTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
@@ -91,12 +91,5 @@
     "C:\\Users\\ADMIN\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://proget.icomm.vn/nuget/icomm-packages/'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
-    }
-  ]
+  "logs": []
 }
