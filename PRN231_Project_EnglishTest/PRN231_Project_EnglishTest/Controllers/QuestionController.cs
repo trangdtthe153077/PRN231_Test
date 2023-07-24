@@ -62,8 +62,6 @@ namespace PRN231_Project_EnglishTest.Controllers
         {
             try
             {
-
-
                 var temp = context.Questions.Where(q => q.QuestionId == id).FirstOrDefault();
                 if (temp == null)
                     return NotFound();
@@ -72,7 +70,7 @@ namespace PRN231_Project_EnglishTest.Controllers
                 temp.QuestionText = q.QuestionText;
                 temp.TestId = q.TestId;
 
-                var listOptions = context.Options.ToList();
+                var listOptions = context.Options.Where(o=> o.QuestionId==temp.QuestionId).ToList();
                 context.Options.RemoveRange(listOptions);
            
                 var resultdetail = context.ResultDetails.Where(rd => rd.QuestionId == temp.QuestionId).ToList();

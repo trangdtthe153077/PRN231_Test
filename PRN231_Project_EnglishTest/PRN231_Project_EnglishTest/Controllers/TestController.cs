@@ -95,6 +95,21 @@ namespace PRN231_Project_EnglishTest.Controllers
                 var temp = context.Tests.Where(t => t.TestId == id).FirstOrDefault();
                 if (temp == null)
                     return NotFound();
+
+                var list = context.Questions.Where(q => q.TestId == id).ToList();
+                foreach (var item in list)
+                {
+                    var a = context.Options.Where(o => o.QuestionId == item.QuestionId).ToList();
+                    context.Options.RemoveRange(a);
+                    var resultdetail = context.ResultDetails.Where(rd => rd.QuestionId == item.QuestionId).ToList();
+                    context.ResultDetails.RemoveRange(resultdetail);
+
+                }
+
+                var listTest = context.Results.Where(t=> t.TestId==id).ToList();
+                context.Results.RemoveRange(listTest);
+                context.Questions.RemoveRange(list);
+            
                 context.Tests.Remove(temp);
                 context.SaveChanges();
                 return Ok();

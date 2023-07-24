@@ -63,6 +63,27 @@
                                 </a>
                             </li>
 
+                            <li class="nav-small-cap">
+                                <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+                                <span class="hide-menu">Manager</span>
+                            </li>
+                            <li class="sidebar-item">
+                                  <a class="sidebar-link" asp-controller="HistoryAdmin" aria-expanded="false" asp-action="Index">
+                                    <span>
+                                        <i class="ti ti-file-description"></i>
+                                    </span>
+                                    <span class="hide-menu">Test Management</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" asp-controller="HistoryAdmin" aria-expanded="false" asp-action="Index">
+                                    <span>
+                                        <i class="ti ti-file-description"></i>
+                                    </span>
+                                    <span class="hide-menu">Question Management</span>
+                                </a>
+                            </li>
+
                         }
                         @if (("3").Equals(Context.Session.GetString("Role")))
                         {
