@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9uOok6QczK0aZNLfzq7Ft/8TElgW3qDFfCqToIGekck=",
+  "Hash": "48eM86YPZ6aOBtoWwqjhKHZnmMUxeqj3S29DTpclMiM=",
   "Source": "PRN231_Project_EnglishTest_Client",
   "BasePath": "_content/PRN231_Project_EnglishTest_Client",
   "Mode": "Default",
@@ -270,6 +270,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\logos\\dark-logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Documents\\Kì 8 Summer 2023\\PRN231\\Project\\Project_PRN231\\PRN_231\\Client\\PRN231_Project_EnglishTest_Client\\wwwroot\\images\\logos\\dark-logo1.png",
+      "SourceId": "PRN231_Project_EnglishTest_Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Documents\\Kì 8 Summer 2023\\PRN231\\Project\\Project_PRN231\\PRN_231\\Client\\PRN231_Project_EnglishTest_Client\\wwwroot\\",
+      "BasePath": "_content/PRN231_Project_EnglishTest_Client",
+      "RelativePath": "images/logos/dark-logo1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logos\\dark-logo1.png"
     },
     {
       "Identity": "C:\\Users\\ADMIN\\Documents\\Kì 8 Summer 2023\\PRN231\\Project\\Project_PRN231\\PRN_231\\Client\\PRN231_Project_EnglishTest_Client\\wwwroot\\images\\logos\\dark-logo1.svg",

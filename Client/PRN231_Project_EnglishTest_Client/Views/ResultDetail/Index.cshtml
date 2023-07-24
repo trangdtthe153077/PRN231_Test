@@ -23,7 +23,7 @@
                                 <input disabled @(question.selectedOption.Contains(option.OptionId) ? "checked" : string.Empty) class="form-check-input" type="radio" name="@question.question.QuestionId" id="@option.OptionId" value="@option.OptionId">
                                 <label>@option.OptionText</label>
                             </div>
-                          
+
                         }
                         <div style="background-color : #eab676; padding : 5px">Correct answer: @question.question.Options.FirstOrDefault(x => x.IsCorrect == true).OptionText </div>
                     }
@@ -31,18 +31,18 @@
                     {
                         @foreach (var option in question.question.Options)
                         {
-                                <div class="form-check">
+                            <div class="form-check">
                                 <input disabled @(question.selectedOption.Contains(option.OptionId) ? "checked" : string.Empty) class="form-check-input" type="checkbox" name="@question.question.QuestionId" id="@option.OptionId" value="@option.OptionId">
                                 <label>@option.OptionText</label>
-                                </div>                      
+                            </div>
                         }
 
-                        @foreach (var option in question.question.Options.Where(x=> x.IsCorrect == true))
+                        @foreach (var option in question.question.Options.Where(x => x.IsCorrect == true))
                         {
                             <div style="background-color : #eab676; padding : 5px">Correct answer: @option.OptionText </div>
                         }
                     }
-                    
+
                 </div>
                 <br />
             }
@@ -50,4 +50,3 @@
         <a asp-controller="Home" asp-action="Index" class="btn btn-primary mt-3" id="submit-button">Back to Home</a>
     </div>
 }
-6
