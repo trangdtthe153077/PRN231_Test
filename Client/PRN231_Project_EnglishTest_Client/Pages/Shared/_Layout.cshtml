@@ -68,21 +68,21 @@
                                 <span class="hide-menu">Manager</span>
                             </li>
                             <li class="sidebar-item">
-                                  <a class="sidebar-link" asp-controller="HistoryAdmin" aria-expanded="false" asp-action="Index">
+                                <a class="sidebar-link" asp-controller="AllTest" aria-expanded="false" asp-action="Index">
                                     <span>
                                         <i class="ti ti-file-description"></i>
                                     </span>
                                     <span class="hide-menu">Test Management</span>
                                 </a>
                             </li>
-                            <li class="sidebar-item">
-                                <a class="sidebar-link" asp-controller="HistoryAdmin" aria-expanded="false" asp-action="Index">
+                            @*<li class="sidebar-item">
+                                <a class="sidebar-link" asp-controller="AllTest" aria-expanded="false" asp-action="Detail">
                                     <span>
                                         <i class="ti ti-file-description"></i>
                                     </span>
                                     <span class="hide-menu">Question Management</span>
                                 </a>
-                            </li>
+                            </li>*@
 
                         }
                         @if (("3").Equals(Context.Session.GetString("Role")))
@@ -113,11 +113,11 @@
                                 <i class="ti ti-menu-2"></i>
                             </a>
                         </li>
-                    
+
                     </ul>
                     <div class="navbar-collapse justify-content-end px-0" id="navbarNav">
                         <ul class="navbar-nav flex-row ms-auto align-items-center justify-content-end">
-                          
+
                             <li class="nav-item dropdown">
                                 <a class="nav-link nav-icon-hover" href="javascript:void(0)" id="drop2" data-bs-toggle="dropdown"
                                    aria-expanded="false">
@@ -127,7 +127,7 @@
                                     <div class="message-body">
                                         @if (Context.Session.GetString("Username") != null)
                                         {
-                                       
+
                                             <a href="javascript:void(0)" class="d-flex align-items-center gap-2 dropdown-item">
                                                 <i class="ti ti-user fs-6"></i>
                                                 <p class="mb-0 fs-3">My Profile</p>
@@ -144,7 +144,7 @@
                                         }
                                         else
                                         {
-                                                <a class="btn btn-outline-primary mx-3 mt-2 d-block" asp-controller="Login" asp-action="Index">Login</a>
+                                            <a class="btn btn-outline-primary mx-3 mt-2 d-block" asp-controller="Login" asp-action="Index">Login</a>
                                         }
 
 
